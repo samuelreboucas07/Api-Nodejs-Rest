@@ -1,5 +1,5 @@
 const express = require("express")
-
+// Analisar Modelagem em documentos individuais de rotas!
 const router = express.Router()
 
 router.get('/', (req, res) =>{
