@@ -9,5 +9,7 @@ router.get('/', (req, res) =>{
 });
 
 router.post('/store', AtendimentoCtrl.store);
+router.post('/delete/:id', AtendimentoCtrl.delete);
+router.post('/show', AtendimentoCtrl.show);
 
 module.exports = router;
