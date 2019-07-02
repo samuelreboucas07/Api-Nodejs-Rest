@@ -1,7 +1,7 @@
-const Atendimento = require("./../models/Atendimento");
+const Atendimento = require("../models/AtendimentoExp");
 
 class AtendimentoController {
-
+// Mudar modelagem para semanal, diário, exporádico
     async store (req, res){
         const infHorario = await Atendimento.create(req.body);
         return res.json(infHorario)

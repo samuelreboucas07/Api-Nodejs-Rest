@@ -2,7 +2,7 @@ const express = require("express")
 // Analisar Modelagem em documentos individuais de rotas!
 const router = express.Router()
 
-const AtendimentoCtrl = require("./../controllers/AtendimentoController")
+const AtendimentoCtrl = require("./../controllers/AtendimentoExpController")
 
 router.get('/', (req, res) =>{
     res.send("Home page!")

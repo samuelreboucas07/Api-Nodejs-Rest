@@ -9,8 +9,7 @@ const AtendimentoSchema = new mongoose.Schema({
 
     Data: { 
         type: Date,
-        required: true,
-        default: Date.now
+        required: true
     },
 
     horarioInicio: {
